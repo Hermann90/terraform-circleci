@@ -1,6 +1,6 @@
 variable "region" {
   type        = string
-  description = "AWS region for allss resources."
+  description = "AWS g region for allss resources."
 }
 
 variable "label" {

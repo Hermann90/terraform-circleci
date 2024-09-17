@@ -1,10 +1,10 @@
-terraform {
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 5.21.0"
-    }
-  }
+terraform { 
+  cloud { 
+    
+    organization = "hermann_company" 
 
-  required_version = "~> 1.2"
+    workspaces { 
+      name = "learn-terraform-circleci" 
+    } 
+  } 
 }
