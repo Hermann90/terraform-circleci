@@ -1,7 +1,7 @@
 terraform { 
   cloud { 
     
-    organization = "hermann_company" 
+    organization = "hermann90" 
 
     workspaces { 
       name = "learn-terraform-circleci" 
